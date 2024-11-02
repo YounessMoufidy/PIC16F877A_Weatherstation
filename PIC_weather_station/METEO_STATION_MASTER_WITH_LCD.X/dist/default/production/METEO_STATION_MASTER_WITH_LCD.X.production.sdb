@@ -1,0 +1,273 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"5 E:\xc8 compiler\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 E:\xc8 compiler\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"10 E:\xc8 compiler\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 E:\xc8 compiler\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 E:\xc8 compiler\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"67 E:\Users\pc\MPLABXProjects\METEO_STATION_MASTER_WITH_LCD.X\main.c
+[v _tostring tostring `(v  1 e 1 0 ]
+"86
+[v _main main `(v  1 e 1 0 ]
+"112
+[v _I2C_Master_Init I2C_Master_Init `(v  1 e 1 0 ]
+"121
+[v _I2C_Wait I2C_Wait `(v  1 e 1 0 ]
+"125
+[v _I2C_Start I2C_Start `(v  1 e 1 0 ]
+"131
+[v _I2C_Stop I2C_Stop `(v  1 e 1 0 ]
+"137
+[v _I2C_Restart I2C_Restart `(v  1 e 1 0 ]
+"150
+[v _I2C_NACK I2C_NACK `(v  1 e 1 0 ]
+"157
+[v _I2C_Write I2C_Write `(uc  1 e 1 0 ]
+"166
+[v _I2C_Read I2C_Read `(uc  1 e 1 0 ]
+"181
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+"204
+[v _IO_Expander_Write IO_Expander_Write `(v  1 e 1 0 ]
+"212
+[v _LCD_Write_4Bit LCD_Write_4Bit `(v  1 e 1 0 ]
+"221
+[v _LCD_CMD LCD_CMD `(v  1 e 1 0 ]
+"228
+[v _LCD_Write_Char LCD_Write_Char `(v  1 e 1 0 ]
+"235
+[v _LCD_Write_String LCD_Write_String `(v  1 e 1 0 ]
+"241
+[v _LCD_Set_Cursor LCD_Set_Cursor `(v  1 e 1 0 ]
+"291
+[v _EEPROM_write EEPROM_write `(v  1 e 1 0 ]
+[s S60 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"357 E:/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f877a.h
+[u S69 . 1 `S60 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES69  1 e 1 @8 ]
+"808
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+"815
+[v _SSPCON SSPCON `VEuc  1 e 1 @20 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1754
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @145 ]
+[s S107 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"1771
+[u S116 . 1 `S107 1 . 1 0 ]
+[v _SSPCON2bits SSPCON2bits `VES116  1 e 1 @145 ]
+"1823
+[v _SSPADD SSPADD `VEuc  1 e 1 @147 ]
+"1830
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @148 ]
+"2378
+[v _ACKDT ACKDT `VEb  1 e 0 @1165 ]
+"2381
+[v _ACKEN ACKEN `VEb  1 e 0 @1164 ]
+"2384
+[v _ACKSTAT ACKSTAT `VEb  1 e 0 @1166 ]
+"2636
+[v _PEN PEN `VEb  1 e 0 @1162 ]
+"2795
+[v _RSEN RSEN `VEb  1 e 0 @1161 ]
+"2810
+[v _SEN SEN `VEb  1 e 0 @1160 ]
+"2972
+[v _TRISC3 TRISC3 `VEb  1 e 0 @1083 ]
+"2975
+[v _TRISC4 TRISC4 `VEb  1 e 0 @1084 ]
+"31 E:\Users\pc\MPLABXProjects\METEO_STATION_MASTER_WITH_LCD.X\main.c
+[v _RS RS `uc  1 e 1 0 ]
+[v _i2c_add i2c_add `uc  1 e 1 0 ]
+[v _BackLight_State BackLight_State `uc  1 e 1 0 ]
+"63
+[v _Temp_value Temp_value `uc  1 e 1 0 ]
+"86
+[v _main main `(v  1 e 1 0 ]
+{
+"93
+[v main@str str `[30]uc  1 a 30 12 ]
+"109
+} 0
+"67
+[v _tostring tostring `(v  1 e 1 0 ]
+{
+[v tostring@str str `*.4uc  1 a 1 wreg ]
+"69
+[v tostring@len len `i  1 a 2 7 ]
+[v tostring@n n `i  1 a 2 4 ]
+[v tostring@i i `i  1 a 2 2 ]
+[v tostring@rem rem `i  1 a 2 0 ]
+"67
+[v tostring@str str `*.4uc  1 a 1 wreg ]
+[v tostring@num num `i  1 p 2 8 ]
+"69
+[v tostring@str str `*.4uc  1 a 1 6 ]
+"84
+} 0
+"5 E:\xc8 compiler\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 0 ]
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+"34
+} 0
+"5 E:\xc8 compiler\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
+"235 E:\Users\pc\MPLABXProjects\METEO_STATION_MASTER_WITH_LCD.X\main.c
+[v _LCD_Write_String LCD_Write_String `(v  1 e 1 0 ]
+{
+"237
+[v LCD_Write_String@i i `i  1 a 2 11 ]
+"235
+[v LCD_Write_String@Str Str `*.26uc  1 p 2 6 ]
+"239
+} 0
+"228
+[v _LCD_Write_Char LCD_Write_Char `(v  1 e 1 0 ]
+{
+[v LCD_Write_Char@Data Data `uc  1 a 1 wreg ]
+[v LCD_Write_Char@Data Data `uc  1 a 1 wreg ]
+"230
+[v LCD_Write_Char@Data Data `uc  1 a 1 5 ]
+"233
+} 0
+"241
+[v _LCD_Set_Cursor LCD_Set_Cursor `(v  1 e 1 0 ]
+{
+[v LCD_Set_Cursor@ROW ROW `uc  1 a 1 wreg ]
+[v LCD_Set_Cursor@ROW ROW `uc  1 a 1 wreg ]
+[v LCD_Set_Cursor@COL COL `uc  1 p 1 6 ]
+[v LCD_Set_Cursor@ROW ROW `uc  1 a 1 9 ]
+"258
+} 0
+"181
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+{
+[v LCD_Init@I2C_Add I2C_Add `uc  1 a 1 wreg ]
+[v LCD_Init@I2C_Add I2C_Add `uc  1 a 1 wreg ]
+"183
+[v LCD_Init@I2C_Add I2C_Add `uc  1 a 1 8 ]
+"202
+} 0
+"221
+[v _LCD_CMD LCD_CMD `(v  1 e 1 0 ]
+{
+[v LCD_CMD@CMD CMD `uc  1 a 1 wreg ]
+[v LCD_CMD@CMD CMD `uc  1 a 1 wreg ]
+"223
+[v LCD_CMD@CMD CMD `uc  1 a 1 5 ]
+"226
+} 0
+"212
+[v _LCD_Write_4Bit LCD_Write_4Bit `(v  1 e 1 0 ]
+{
+[v LCD_Write_4Bit@Nibble Nibble `uc  1 a 1 wreg ]
+[v LCD_Write_4Bit@Nibble Nibble `uc  1 a 1 wreg ]
+"215
+[v LCD_Write_4Bit@Nibble Nibble `uc  1 a 1 3 ]
+"219
+} 0
+"204
+[v _IO_Expander_Write IO_Expander_Write `(v  1 e 1 0 ]
+{
+[v IO_Expander_Write@Data Data `uc  1 a 1 wreg ]
+[v IO_Expander_Write@Data Data `uc  1 a 1 wreg ]
+"206
+[v IO_Expander_Write@Data Data `uc  1 a 1 1 ]
+"210
+} 0
+"166
+[v _I2C_Read I2C_Read `(uc  1 e 1 0 ]
+{
+"168
+[v I2C_Read@Data Data `uc  1 a 1 0 ]
+"175
+} 0
+"150
+[v _I2C_NACK I2C_NACK `(v  1 e 1 0 ]
+{
+"156
+} 0
+"112
+[v _I2C_Master_Init I2C_Master_Init `(v  1 e 1 0 ]
+{
+"120
+} 0
+"291
+[v _EEPROM_write EEPROM_write `(v  1 e 1 0 ]
+{
+[v EEPROM_write@Address_High Address_High `uc  1 a 1 wreg ]
+[v EEPROM_write@Address_High Address_High `uc  1 a 1 wreg ]
+[v EEPROM_write@Address_LOW Address_LOW `uc  1 p 1 1 ]
+[v EEPROM_write@data data `uc  1 p 1 2 ]
+"293
+[v EEPROM_write@Address_High Address_High `uc  1 a 1 3 ]
+"301
+} 0
+"157
+[v _I2C_Write I2C_Write `(uc  1 e 1 0 ]
+{
+[v I2C_Write@Data Data `uc  1 a 1 wreg ]
+[v I2C_Write@Data Data `uc  1 a 1 wreg ]
+"160
+[v I2C_Write@Data Data `uc  1 a 1 0 ]
+"164
+} 0
+"131
+[v _I2C_Stop I2C_Stop `(v  1 e 1 0 ]
+{
+"136
+} 0
+"125
+[v _I2C_Start I2C_Start `(v  1 e 1 0 ]
+{
+"130
+} 0
+"121
+[v _I2C_Wait I2C_Wait `(v  1 e 1 0 ]
+{
+"124
+} 0
