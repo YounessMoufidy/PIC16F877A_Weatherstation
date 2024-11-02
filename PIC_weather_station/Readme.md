@@ -12,8 +12,8 @@
 ## Test
 - The project has been tested using proteuse 8.
 
- ![alt text](https://github.com/YounessMoufidy/PIC16F877A/blob/master/PIC_weather_station/PIC.png "PIC Weaher_station")
-
+ 
+![PIC](https://github.com/user-attachments/assets/4877e4ea-6719-467e-afc6-dc60e57d0d82)
 
 
 
